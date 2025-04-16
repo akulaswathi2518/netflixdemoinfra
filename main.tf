@@ -14,5 +14,5 @@ Name = var.instance_names[count.index]
 }
 
 variable "instance_names" {
-default = ["jenkins", "nexus", "AppServer-1", "AppServer-2", "Monitoring server"]
+default = ["jenkins", "AppServer-1", "AppServer-2", "Monitoring server"]
 }
